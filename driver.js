@@ -70,7 +70,6 @@ if(jobj.cod==404)
 		{
 			if(eplace=='gay marriage')
 			{
-				console.log('World is GEtting Greater');
 				document.getElementById('full').style.backgroundImage="url('theme/gay.jpg')";
 				document.getElementById('full').style.backgroundSize='cover';
 			}
@@ -424,7 +423,6 @@ function convert()
 		ref_t.innerHTML=temp+'&deg;F';
 		ref_tmin.innerHTML=mintemp+'&deg;F';
 		ref_tmax.innerHTML=maxtemp+'&deg;F';
-		console.log(season());
 	}
 	if(mode=='r')
 	{
@@ -617,15 +615,12 @@ $.getJSON(uurl,function(data,success)
 }
 function sunstatus()
 {
-	console.log(p_data.sunset);
-		console.log(p_timings.time);
 
 	var day = new Date(p_data.sunset*1000);
 	var r_date=(day.getDate());
 	var day = new Date(p_timings.time);
 	var c_date=day.getDate();
 	var dd=r_date-c_date;
-	console.log(dd);
 
 	var c_data=
 	p_data_formatted.sunrise=convert_unix(p_data.sunrise);
