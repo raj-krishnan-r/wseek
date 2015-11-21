@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* Wrote for Cloud Seek By Raj Krishnan R | rkrishnan1993@live.com 2014 */
+
+::selection
+{
+	color:#FFF;
+	background-color:#663399;
+}
+.ribbon
+{
+	position:fixed;
+	width:101%;
+background-image:url(images/ribbon_heavens.jpg);
+background-size:cover;
+
+	left:0px;
+	top:0px;
+	right:0px;
+	height:80px;
+	z-index:1;
+	box-shadow:1px 2px 5px #CCCCCC;
+}
+.placeinput
+{
+	width:500px;
+	height:30px;
+	font-size:20px;
+	color:#000;
+	background:none;
+	-webkit-box-shadow: none;
+	outline: none;
+	border-bottom: dotted 1px #000000; ;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+.placebutton
+{
+	width:40px;
+	height:40px;
+	top:10px;
+	background:url(images/search.png);
+	cursor:pointer;
+}
+.loading
+{
+	position: absolute;
+	z-index: 3;
+	color: #093;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-attachment: fixed;
+}
+.infopart
+{
+	position:absolute;
+	background-repeat:no-repeat;
+	background-size:cover;
+	top:81px;
+	width:95%;
+	margin-left:2%;
+	margin-right:2%;
+	font-family:"Segoe UI Light", Arial, Verdana;
+	font-size:18px;
+	color:#333;
+}
+.condition
+{
+	font-family:"Segoe UI Light", Arial, Verdana;
+	font-size:26px;
+	color:#fff;
+	text-shadow:1px 1px 1px #0066FF;
+}
+.desc
+{
+	font-family:"Segoe UI Light", Arial, Verdana;
+	font-size:14px;
+	color:#CCC;
+	text-shadow:1px 1px 1px #0066CC;
+}
+table
+{
+	font-family:"Segoe UI Light", Arial, Verdana;
+	font-size:16px;
+	color:#FFF;
+}
+.placetitle
+{
+	font-family:"Segoe UI Light", Arial, Verdana;
+	font-size:18px;
+	color:#000;
+	text-shadow:1px 1px 1px #006699;
+}
+#datalist
+{
+	display:none;
+}
+.measures
+{
+	background-image:url(images/tile3.png);
+	background-size:cover;
+	/*-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;*/
+	min-height:500px;
+	min-width:500px;
+	box-shadow:4px 4px 8px #666666;
+	color:#039;
+	font-weight:lighter;
+	border-collapse:collapse;
+}
+.daystatus
+{
+
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-left-radius:05px;
+	-webkit-border-top-right-radius:05px;
+	height:150px;
+	vertical-align:central;
+}
+.notify
+{
+	position:fixed;
+	background-attachment:fixed;
+	z-index:999;
+	width:450px;
+	min-width:450px;
+	display:none;
+	font-size:12px;
+	background-image:url(images/tile6.png);
+	font-family:"Segoe UI Light", Arial, Verdana;
+	color:#FFF;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	box-shadow:-1px 10px 10px #999999;
+}
+.notify_close
+{
+	text-align:right;
+	color:#000;
+	cursor:pointer;
+}
+.notify_close:hover
+{
+	color:#F00
+}
+.notify_title
+{
+		font-family:"Segoe UI Light", Arial, Verdana;
+		font-size:14px;
+		color:#FFFF;
+		margin:1%;
+}
+.notify_title img
+{
+	width:30px;
+	height:30px;
+}
+.notify_desc
+{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	color:#FFFF;
+	margin:5px;
+
+}
+.icon
+{
+	width:30px;
+	height:30px;
+}
+.measures tr:hover
+{
+	background-image:url(images/tile3.png);
+}
+.timer
+{
+	font-family:"Segoe UI Light", Arial, Verdana;
+	font-size:24px;
+	text-align:right;
+	color:#FFF;
+	text-shadow:1px 1px 1px #0066CC;
+}
+.forecast
+{
+	text-align:center;
+	border-collapse:collapse;
+	color:#333;
+}
+.forecast tr
+{
+	background-image:url(images/tile3.png);
+}
+.forecast th
+{
+	background:url(images/tile3.png);
+}
+.forecast tr:nth-child(odd)
+{
+	background-image:url(images/tile5.png);
+}
+.forecast_info_text
+{
+	font-family:"Segoe UI Light", Arial, Verdana;
+	font-size:16px;
+	color:#06C;
+}
+#general_info_table
+{
+	top:0px;
+	min-width:500px;
+	min-height:500px;
+}
+#general_info_table tr
+{
+	background-image:url(images/tile4.png);
+		-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+}
+#general_info_table tr:nth-child(odd)
+{
+	background-image:url(images/tile5.png);
+}
+#general_info_table th
+{
+	background:url(images/tile3.png);
+}
+footer
+{font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000;
+text-align:center;
+}
+footer a
+{
+	font-size:12px
+}
+footer a:hover
+{
+	font-size:12px
+}
+#wikipart
+{
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	background-color:#FFF;
+	border:thin 1px #000066;
+		
+
+}
+#wikipart table
+{
+	border:thin 5px #003399;
+	table-layout:auto;
+}
+#wikipart p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#wikipart h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+#wikipart h2
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+select
+{
+	outline: none;
+	width:100px;
+	height:19px;
+	background:none;
+	-webkit-border-bottom-left-radius:05px;
+	-webkit-border-bottom-right-radius:05px;
+	-webkit-border-top-right-radius:05px;
+	-webkit-border-top-left-radius:05px;
+	-webkit-box-shadow:none;
+
+}
+select option
+{
+	-webkit-box-shadow: none;
+	outline: none;
+	width:100px;
+	height:19px;
+	-webkit-border-bottom-left-radius:05px;
+	-webkit-border-bottom-right-radius:05px;
+	-webkit-border-top-right-radius:05px;
+	-webkit-border-top-left-radius:05px;
+	background:#CCC;
+	
+}
+.alter
+{
+	background:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#036;
+	border:none;
+	outline:none;
+}
+.autocomplete
+{
+	display:none;
+	position:absolute;
+	z-index:99999999;
+	background:url(images/tile4.png);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	color:#CCC;
+
+}
+.autocomplete table
+{
+	background:#FFF;
+	color:#060;
+	font-size:14px;
+}
+.autocomplete table tr
+{
+	background-image:url(images/tile4.png);
+		-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+}
+.autocomplete table tr:nth-child(odd)
+{
+	background-image:url(images/tile5.png);
+}
+.
