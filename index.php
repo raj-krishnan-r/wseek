@@ -72,7 +72,7 @@ function popupwindow(url, title, w, h) {
             right: 50px;
             width: 100px;
             height:50px;
-            border: 1px solid #cde1e7;
+            border: 1px solid rgba(205, 225, 231, 0);
                                     border-radius: 5px;
 
             
