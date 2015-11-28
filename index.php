@@ -179,7 +179,7 @@ function popupwindow(url, title, w, h) {
 <div id="clip" class = "clip"></div>
 <img src="images/sun.png"  id="sunpic" style="display: none;">
 <footer>
-<a style="cursor:pointer; color:#00F;" onClick="notify('Data Courtesy','Weather or Climate Data : http://www.openweathermap.org<br>Regional Time and Map : Google Timezone and Maps');">Data Courtesy</a> | <a onClick="notify('Reading Accuracy','The weather readings illustrated above\'s accuracy is questionable and depends upon the accuracy of the data provider.<br>Weather data is latest by maximum of 10 minutes and old by maximum of 2 hours.');" style="cursor:pointer; color:#00F;">Data Accuracy</a> | <a style="cursor:pointer; color:#00F;" onClick="notify('About','This application is owned and operated by ATEC')";>About</a> </footer>
+<a style="cursor:pointer; color:#00F;" onClick="notify('Data Courtesy','Weather or Climate Data : http://www.openweathermap.org<br>Regional Time and Map : Google Timezone and Maps');">Data Courtesy</a> | <a onClick="notify('Reading Accuracy','The weather readings illustrated above\'s accuracy is questionable and depends upon the accuracy of the data provider.<br>Weather data is latest by maximum of 10 minutes and old by maximum of 2 hours.');" style="cursor:pointer; color:#00F;">Data Accuracy</a> | <a style="cursor:pointer; color:#00F;" onClick="window.open('https://note-runfree.rhcloud.com?deepdive','_blank')">About</a> </footer>
 <img src="images/loadup.gif" style="display:none;"/>
 </body>
 </html>
